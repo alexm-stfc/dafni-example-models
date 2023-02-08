@@ -19,6 +19,12 @@ metadata:
   source_code: https://github.com/aamirpatel23/UK-Climate-Analysis
 
 spec:
+  language:
+      python:
+        version: '3.8'
+        dependencies: requirements.txt
+        miniconda: false
+  os_dependencies: ['default-jdk']
   inputs:
     parameters:
       - name: PROCESS_RAINFALL
